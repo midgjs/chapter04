@@ -1,12 +1,16 @@
 package com.javaex.ex04;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class MyListApp {
 
 	public static void main(String[] args) {
 		
-		ArrayList<Point> pList= new ArrayList<Point>();
+		//ArrayList<Point> pList= new ArrayList<Point>();
+		
+		List<Point> pList= new ArrayList<Point>();
+		//List<Point> pList= new LinkedList<Point>();
 		
 		Point p01 = new Point(3,5);
 		Point p02 = new Point(13,15);
